@@ -1,21 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native'
+
+// O componente View é melhor comparável a um div elemento HTML. Da mesma forma div, 
+// o Viewcomponente não é visível a menos que um estilo seja aplicado.
+//  Podemos aplicar esse estilo por meio do style props em camelCase.
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello World</Text>
-      <StatusBar style="auto" />
+    <View style={styleView}>
+
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const styleView = {
+  widht: 100,
+  height: 100,
+  backgroundColor: 'red'
+};
