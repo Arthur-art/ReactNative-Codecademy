@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native'
-import ButtonsComponent from './src/components/ButtonsComponent'
+import { InputTextComponent } from './src/components/InputTextComponent'
 
 export default function App() {
   return (
     <View>
-      <ButtonsComponent />
+      <InputTextComponent />
     </View>
 
   );
