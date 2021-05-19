@@ -1,12 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { InputTextComponent } from './src/components/InputTextComponent'
+import { StylesheetComponent } from './src/components/StylesheetComponent'
 
 export default function App() {
   return (
-    <View>
-      <InputTextComponent />
-    </View>
-
+    <StylesheetComponent />
   );
 }
