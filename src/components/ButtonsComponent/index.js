@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Text, View } from 'react-native';
 
 const ButtonsComponent = () => {
-    const [pressedCount, setPressedCount] = useState(1);
+    const [pressedCount, setPressedCount] = useState(0);
 
     const handleChange = () => {
 
@@ -21,7 +21,7 @@ const ButtonsComponent = () => {
             </View>
             <Button
                 title='Press me'
-                onPress={() => handleChange()}
+                onPress={() => setPressedCount(pressedCount + 1)}
             />
         </View>
     );
