@@ -1,8 +1,12 @@
 import React from 'react';
-import { ImageComponent } from './src/components/ImageComponent'
+import { View } from 'react-native'
+import { ScrollViewComponent } from './src/components/ScrollViewComponent'
 
 export default function App() {
   return (
-    <ImageComponent />
+    <View>
+      <ScrollViewComponent />
+    </View>
+
   );
 }
