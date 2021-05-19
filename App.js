@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native'
-import { ScrollViewComponent } from './src/components/ScrollViewComponent'
+import ButtonsComponent from './src/components/ButtonsComponent'
 
 export default function App() {
   return (
     <View>
-      <ScrollViewComponent />
+      <ButtonsComponent />
     </View>
 
   );
