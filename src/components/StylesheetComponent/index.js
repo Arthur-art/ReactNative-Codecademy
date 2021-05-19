@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-export const StylesheetComponent = () => (
+export const StylesheetComponent = ({ red }) => (
     <View style={styles.layout}>
-        <View style={styles.card} />
+        <View style={[styles.card, red && { backgroundColor: 'red' }]} />
         <View style={styles.card} />
     </View>
 );
