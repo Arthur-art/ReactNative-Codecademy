@@ -5,7 +5,7 @@ import { View } from 'react-native'
 //  Podemos aplicar esse estilo por meio do style props em camelCase.
 
 
-export function FlexBox() {
+export function FlexBoxComponent() {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

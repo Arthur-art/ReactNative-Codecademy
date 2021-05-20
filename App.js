@@ -4,6 +4,6 @@ import { StylesheetComponent } from './src/components/StylesheetComponent'
 
 export default function App() {
   return (
-    <StylesheetComponent red={true} />
+    <StylesheetComponent grey={true} />
   );
 }
