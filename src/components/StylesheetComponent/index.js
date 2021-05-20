@@ -18,7 +18,7 @@ export const StylesheetComponent = ({ grey }) => {
                     <Text style={{ fontSize: 20, textAlign: 'center' }}>Count {state}</Text>
                 </View>
             </ScrollView>
-            <Button title="Press me" onPress={() => setState(state + 1)} />
+            <Button color="black" styles={styles.button} title="Press me" onPress={() => setState(state + 1)} />
         </View>
     );
 }
@@ -42,5 +42,5 @@ export const styles = StyleSheet.create({
         borderRadius: 16,
         shadowColor: 'black',
         textAlign: 'center'
-    },
+    }
 });

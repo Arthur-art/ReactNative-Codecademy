@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { StylesheetComponent } from './src/components/StylesheetComponent'
+import { ImageComponent } from './src/components/ImageComponent'
 
 export default function App() {
   return (
-    <StylesheetComponent grey={true} />
+    <ImageComponent />
   );
 }
