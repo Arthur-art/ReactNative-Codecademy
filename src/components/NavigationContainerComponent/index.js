@@ -26,7 +26,7 @@ const Stack = createStackNavigator();
 export const NavigationContainerComponent = () => (
     <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name="myScrean" component={FeedScreen} />
+            <Stack.Screen name="Feed" component={FeedScreen} />
         </Stack.Navigator>
     </NavigationContainer>
 )
