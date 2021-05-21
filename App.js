@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { NavigationContainerComponent } from './src/components/NavigationContainerComponent'
+import { TabNavigation } from './src/components/TabNavigation'
 
 export default function App() {
   return (
-    <NavigationContainerComponent />
+    <TabNavigation />
   );
 }

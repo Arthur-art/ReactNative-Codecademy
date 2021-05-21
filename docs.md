@@ -15,3 +15,6 @@
 
 # Configurando react-native-gesture-handler
 - yarn add react-native-gesture-handler 
+
+# Configurando react-navigation/bottom-tabs
+- yarn add @react-navigation/bottom-tabs
