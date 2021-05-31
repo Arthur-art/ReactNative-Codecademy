@@ -27,9 +27,9 @@ const Tab = createBottomTabNavigator();
 export const TabNavigation = () => (
     <NavigationContainer>
         <Tab.Navigator>
-            <Tab.Screen name="Feed" component={FeedScreen} />
-            <Tab.Screen name="Profile" component={Profile} />
-            <Tab.Screen name="Dng" component={DNG} />
+            <Tab.Screen name="DNG" component={DNG} />
+            <Tab.Screen name="ARTHUR" component={Profile} />
+            <Tab.Screen name="FEED" component={FeedScreen} />
         </Tab.Navigator>
     </NavigationContainer>
 )
