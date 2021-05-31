@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { ProgrammaticNavigation } from './src/components/ProgrammaticNavigation'
+import { NestedNavigation } from './src/components/NestedNavigation'
 
 export default function App() {
   return (
-    <ProgrammaticNavigation />
+    <NestedNavigation />
   );
 }
