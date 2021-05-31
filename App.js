@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { TabNavigation } from './src/components/TabNavigation'
+import { ProgramaticNavigation } from './src/components/ProgrammaticNavigation'
 
 export default function App() {
   return (
-    <TabNavigation />
+    <ProgramaticNavigation />
   );
 }
