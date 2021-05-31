@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native'
-import { NestedNavigation } from './src/components/NestedNavigation'
+import { AuthenticationFlow } from './src/components/Navigation/AuthenticationFlow'
 
 export default function App() {
   return (
-    <NestedNavigation />
+    <AuthenticationFlow />
   );
 }
